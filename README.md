@@ -8,9 +8,3 @@
 - **Containerization**: Docker
 - **Version Control**: Git
 
-## Инфраструктура
-```mermaid
-graph TD
-    A[Airflow] -->|Extract| B(MinIO)
-    A -->|Transform| C(PostgreSQL)
-    C -->|Load| D[Metabase]
